@@ -111,11 +111,13 @@ FrequencyBodyGyroscopeMean()-Y
 FrequencyBodyGyroscopeMean()-Z                
 FrequencyBodyGyroscopeSTD()-X                
 FrequencyBodyGyroscopeSTD()-Y                 
-FrequencyBodyGyroscopeSTD()-Z                
-FrequencyBodyAccelerometerMagnitudeMean()     
-FrequencyBodyAccelerometerMagnitudeSTD()     
-FrequencyBodyAccelerometerJerkMagnitudeMean()
+FrequencyBodyGyroscopeSTD()-Z      
 FrequencyBodyGyroscopeMagnitudeMean()         
 FrequencyBodyGyroscopeMagnitudeSTD()         
 FrequencyBodyGyroscopeJerkMagnitudeMean()     
 FrequencyBodyGyroscopeJerkMagnitudeSTD() 
+FrequencyBodyAccelerometerMagnitudeMean()     
+FrequencyBodyAccelerometerMagnitudeSTD()
+FrequencyBodyAccelerometerJerkMagnitudeSTD()
+FrequencyBodyAccelerometerJerkMagnitudeMean()
+
