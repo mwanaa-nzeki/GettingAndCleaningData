@@ -26,3 +26,11 @@ The provided script called run_analysis.R does the following:
 3. Uses descriptive activity names to name the activities in the data set
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
+ 
+## Execution
+1. Clone the repository `git@github.com:mwanaa-nzeki/GettingAndCleaningData.git`
+2. Download the [dataset](#getDataset)
+3. Unzip the dataset and place the directory "UCI HAR Dataset" at the root of the cloned repository
+4. Set the working directory to the cloned repository root directory
+5. Source and run the script run_analysis.R 
+6. On successful execution, a tidy and independent dataset is created in the file "tidyData.txt" located in your repository root directory
