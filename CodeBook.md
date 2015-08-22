@@ -50,7 +50,7 @@ The following transformations are applied to the dataset:
 5. A second tidy and independent dataset is created with the average of each variable for each activity and each subject.
 
 ## Variable Names
-Below are the variable names in the tidy dataset:
+Below are the mean and standard deviation variable names in the tidy dataset:
 
 Subject                                       
 ActivityLabel                                
@@ -115,7 +115,6 @@ FrequencyBodyGyroscopeSTD()-Z
 FrequencyBodyAccelerometerMagnitudeMean()     
 FrequencyBodyAccelerometerMagnitudeSTD()     
 FrequencyBodyAccelerometerJerkMagnitudeMean()
-FrequencyBodyAccelerometerJerkMagnitudeSTD()
 FrequencyBodyGyroscopeMagnitudeMean()         
 FrequencyBodyGyroscopeMagnitudeSTD()         
 FrequencyBodyGyroscopeJerkMagnitudeMean()     
