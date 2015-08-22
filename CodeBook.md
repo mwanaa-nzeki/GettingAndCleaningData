@@ -52,72 +52,71 @@ The following transformations are applied to the dataset:
 ## Variable Names
 Below are the mean and standard deviation variable names in the tidy dataset:
 
-Subject                                       
-ActivityLabel                                
-TimeBodyAccelerometerMean()-X                 
-TimeBodyAccelerometerMean()-Y                
-TimeBodyAccelerometerMean()-Z                 
-TimeBodyAccelerometerSTD()-X                 
-TimeBodyAccelerometerSTD()-Y                  
-TimeBodyAccelerometerSTD()-Z                 
-TimeGravityAccelerometerMean()-X              
-TimeGravityAccelerometerMean()-Y             
-TimeGravityAccelerometerMean()-Z              
-TimeGravityAccelerometerSTD()-X              
-TimeGravityAccelerometerSTD()-Y               
-TimeGravityAccelerometerSTD()-Z              
-TimeBodyAccelerometerJerkMean()-X             
-TimeBodyAccelerometerJerkMean()-Y            
-TimeBodyAccelerometerJerkMean()-Z             
-TimeBodyAccelerometerJerkSTD()-X             
-TimeBodyAccelerometerJerkSTD()-Y              
-TimeBodyAccelerometerJerkSTD()-Z             
-TimeBodyGyroscopeMean()-X                     
-TimeBodyGyroscopeMean()-Y                    
-TimeBodyGyroscopeMean()-Z                     
-TimeBodyGyroscopeSTD()-X                     
-TimeBodyGyroscopeSTD()-Y                      
-TimeBodyGyroscopeSTD()-Z                     
-TimeBodyGyroscopeJerkMean()-X                 
-TimeBodyGyroscopeJerkMean()-Y                
-TimeBodyGyroscopeJerkMean()-Z                 
-TimeBodyGyroscopeJerkSTD()-X                 
-TimeBodyGyroscopeJerkSTD()-Y                  
-TimeBodyGyroscopeJerkSTD()-Z                 
-TimeBodyAccelerometerMagnitudeMean()          
-TimeBodyAccelerometerMagnitudeSTD()          
-TimeGravityAccelerometerMagnitudeMean()       
-TimeGravityAccelerometerMagnitudeSTD()       
-TimeBodyAccelerometerJerkMagnitudeMean()      
-TimeBodyAccelerometerJerkMagnitudeSTD()      
-TimeBodyGyroscopeMagnitudeMean()              
-TimeBodyGyroscopeMagnitudeSTD()              
-TimeBodyGyroscopeJerkMagnitudeMean()          
-TimeBodyGyroscopeJerkMagnitudeSTD()          
-FrequencyBodyAccelerometerMean()-X            
-FrequencyBodyAccelerometerMean()-Y           
-FrequencyBodyAccelerometerMean()-Z            
-FrequencyBodyAccelerometerSTD()-X            
-FrequencyBodyAccelerometerSTD()-Y             
-FrequencyBodyAccelerometerSTD()-Z            
-FrequencyBodyAccelerometerJerkMean()-X        
-FrequencyBodyAccelerometerJerkMean()-Y       
-FrequencyBodyAccelerometerJerkMean()-Z        
-FrequencyBodyAccelerometerJerkSTD()-X        
-FrequencyBodyAccelerometerJerkSTD()-Y         
-FrequencyBodyAccelerometerJerkSTD()-Z        
-FrequencyBodyGyroscopeMean()-X                
-FrequencyBodyGyroscopeMean()-Y               
-FrequencyBodyGyroscopeMean()-Z                
-FrequencyBodyGyroscopeSTD()-X                
-FrequencyBodyGyroscopeSTD()-Y                 
-FrequencyBodyGyroscopeSTD()-Z      
-FrequencyBodyGyroscopeMagnitudeMean()         
-FrequencyBodyGyroscopeMagnitudeSTD()         
-FrequencyBodyGyroscopeJerkMagnitudeMean()     
-FrequencyBodyGyroscopeJerkMagnitudeSTD() 
-FrequencyBodyAccelerometerMagnitudeMean()     
-FrequencyBodyAccelerometerMagnitudeSTD()
-FrequencyBodyAccelerometerJerkMagnitudeSTD()
-FrequencyBodyAccelerometerJerkMagnitudeMean()
-
+1. Subject
+2. ActivityLabel                  
+3. TimeBodyAccelerometerMean()-X                 
+4. TimeBodyAccelerometerMean()-Y                
+5. TimeBodyAccelerometerMean()-Z                 
+6. TimeBodyAccelerometerSTD()-X                 
+7. TimeBodyAccelerometerSTD()-Y                  
+8. TimeBodyAccelerometerSTD()-Z                 
+9. TimeGravityAccelerometerMean()-X              
+10. TimeGravityAccelerometerMean()-Y             
+11. TimeGravityAccelerometerMean()-Z              
+12. TimeGravityAccelerometerSTD()-X              
+13. TimeGravityAccelerometerSTD()-Y               
+14. TimeGravityAccelerometerSTD()-Z              
+15. TimeBodyAccelerometerJerkMean()-X             
+16. TimeBodyAccelerometerJerkMean()-Y            
+17. TimeBodyAccelerometerJerkMean()-Z             
+18. TimeBodyAccelerometerJerkSTD()-X             
+19. TimeBodyAccelerometerJerkSTD()-Y              
+20. TimeBodyAccelerometerJerkSTD()-Z             
+21. TimeBodyGyroscopeMean()-X                     
+22. TimeBodyGyroscopeMean()-Y                    
+23. TimeBodyGyroscopeMean()-Z                     
+24. TimeBodyGyroscopeSTD()-X                     
+25. TimeBodyGyroscopeSTD()-Y                      
+26. TimeBodyGyroscopeSTD()-Z                     
+27. TimeBodyGyroscopeJerkMean()-X                 
+28. TimeBodyGyroscopeJerkMean()-Y                
+29. TimeBodyGyroscopeJerkMean()-Z                 
+30. TimeBodyGyroscopeJerkSTD()-X                 
+31. TimeBodyGyroscopeJerkSTD()-Y                  
+32. TimeBodyGyroscopeJerkSTD()-Z                 
+33. TimeBodyAccelerometerMagnitudeMean()          
+34. TimeBodyAccelerometerMagnitudeSTD()          
+35. TimeGravityAccelerometerMagnitudeMean()       
+36. TimeGravityAccelerometerMagnitudeSTD()       
+37. TimeBodyAccelerometerJerkMagnitudeMean()      
+38. TimeBodyAccelerometerJerkMagnitudeSTD()     
+39. TimeBodyGyroscopeMagnitudeMean()              
+40. TimeBodyGyroscopeMagnitudeSTD()          
+41. TimeBodyGyroscopeJerkMagnitudeMean()          
+42. TimeBodyGyroscopeJerkMagnitudeSTD()          
+43. FrequencyBodyAccelerometerMean()-X            
+44. FrequencyBodyAccelerometerMean()-Y           
+45. FrequencyBodyAccelerometerMean()-Z            
+46. FrequencyBodyAccelerometerSTD()-X            
+47. FrequencyBodyAccelerometerSTD()-Y             
+48. FrequencyBodyAccelerometerSTD()-Z            
+49. FrequencyBodyAccelerometerJerkMean()-X        
+50. FrequencyBodyAccelerometerJerkMean()-Y       
+51. FrequencyBodyAccelerometerJerkMean()-Z        
+52. FrequencyBodyAccelerometerJerkSTD()-X        
+53. FrequencyBodyAccelerometerJerkSTD()-Y         
+54. FrequencyBodyAccelerometerJerkSTD()-Z        
+55. FrequencyBodyGyroscopeMean()-X                
+56. FrequencyBodyGyroscopeMean()-Y               
+57. FrequencyBodyGyroscopeMean()-Z                
+58. FrequencyBodyGyroscopeSTD()-X                
+59. FrequencyBodyGyroscopeSTD()-Y                 
+60. FrequencyBodyGyroscopeSTD()-Z      
+61. FrequencyBodyGyroscopeMagnitudeMean()         
+62. FrequencyBodyGyroscopeMagnitudeSTD()         
+63. FrequencyBodyGyroscopeJerkMagnitudeMean()     
+64. FrequencyBodyGyroscopeJerkMagnitudeSTD() 
+65. FrequencyBodyAccelerometerMagnitudeMean()     
+66. FrequencyBodyAccelerometerMagnitudeSTD()
+67. FrequencyBodyAccelerometerJerkMagnitudeSTD()
+68. FrequencyBodyAccelerometerJerkMagnitudeMean()
