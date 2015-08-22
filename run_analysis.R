@@ -49,7 +49,7 @@ names(X_train) <- features
 X_train <- X_train[, targetFeatures]
 
 # Apply colum names to training and subject datasets
-y_train[,2] <- activity_labels[y_train[,1]]
+y_train[,2] <- activityLabels[y_train[,1]]
 names(y_train) <- c("ActivityNum", "ActivityLabel")
 names(subject_train) <- "Subject"
 
@@ -61,10 +61,25 @@ data <- rbind(test_data, train_data)
 
 numLabels   <- c("Subject", "ActivityNum", "ActivityLabel")
 dataLabels <- setdiff(colnames(data), numLabels)
-dataMelt <- melt(data, id = numLabels, measure.vars = dataLabels)
+
+# give variables more descriptive names
+names(data)<-gsub("Acc", "Accelerometer", names(data))
+names(data)<-gsub("Gyro", "Gyroscope", names(data))
+names(data)<-gsub("BodyBody", "Body", names(data))
+names(data)<-gsub("Mag", "Magnitude", names(data))
+names(data)<-gsub("^t", "Time", names(data))
+names(data)<-gsub("^f", "Frequency", names(data))
+names(data)<-gsub("tBody", "TimeBody", names(data))
+names(data)<-gsub("-mean()", "Mean", names(data), ignore.case = TRUE)
+names(data)<-gsub("-std()", "STD", names(data), ignore.case = TRUE)
+names(data)<-gsub("-freq()", "Frequency", names(data), ignore.case = TRUE)
+names(data)<-gsub("angle", "Angle", names(data))
+names(data)<-gsub("gravity", "Gravity", names(data))
+
+dataMelt <- melt(data, id = numLabels)
 
 # Apply mean function to dataset using dcast function
 tidyData <- dcast(dataMelt, Subject + ActivityLabel ~ variable, mean)
-
+# write tidy data to file 
 write.table(tidyData, file = "./tidyData.txt", row.names = FALSE)
 
