@@ -51,6 +51,7 @@ The following transformations are applied to the dataset:
 
 ## Variable Names
 Below are the variable names in the tidy dataset:
+
 Subject                                       
 ActivityLabel                                
 TimeBodyAccelerometerMean()-X                 
@@ -113,8 +114,8 @@ FrequencyBodyGyroscopeSTD()-Y
 FrequencyBodyGyroscopeSTD()-Z                
 FrequencyBodyAccelerometerMagnitudeMean()     
 FrequencyBodyAccelerometerMagnitudeSTD()     
-FrequencyBodyAccelerometerJerkMagnitudeMean() 
-FrequencyBodyAccelerometerJerkMagnitudeSTD() 
+FrequencyBodyAccelerometerJerkMagnitudeMean()
+FrequencyBodyAccelerometerJerkMagnitudeSTD()
 FrequencyBodyGyroscopeMagnitudeMean()         
 FrequencyBodyGyroscopeMagnitudeSTD()         
 FrequencyBodyGyroscopeJerkMagnitudeMean()     
