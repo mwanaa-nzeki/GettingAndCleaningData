@@ -55,3 +55,4 @@ The following transformations are applied to the dataset:
 3. Unzip the dataset and place the directory "UCI HAR Dataset" at the root of the cloned repository
 4. Set the working directory to the cloned repository root directory
 5. Source and run the script run_analysis.R 
+6. On successful execution, a tidy and independent dataset is created in the file "tidyData.txt" located in your repository root directory
