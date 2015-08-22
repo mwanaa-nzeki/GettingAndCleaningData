@@ -51,37 +51,71 @@ The following transformations are applied to the dataset:
 
 ## Variable Names
 Below are the variable names in the tidy dataset:
-[1] "Subject"                                       "ActivityLabel"                                
- [3] "TimeBodyAccelerometerMean()-X"                 "TimeBodyAccelerometerMean()-Y"                
- [5] "TimeBodyAccelerometerMean()-Z"                 "TimeBodyAccelerometerSTD()-X"                 
- [7] "TimeBodyAccelerometerSTD()-Y"                  "TimeBodyAccelerometerSTD()-Z"                 
- [9] "TimeGravityAccelerometerMean()-X"              "TimeGravityAccelerometerMean()-Y"             
-[11] "TimeGravityAccelerometerMean()-Z"              "TimeGravityAccelerometerSTD()-X"              
-[13] "TimeGravityAccelerometerSTD()-Y"               "TimeGravityAccelerometerSTD()-Z"              
-[15] "TimeBodyAccelerometerJerkMean()-X"             "TimeBodyAccelerometerJerkMean()-Y"            
-[17] "TimeBodyAccelerometerJerkMean()-Z"             "TimeBodyAccelerometerJerkSTD()-X"             
-[19] "TimeBodyAccelerometerJerkSTD()-Y"              "TimeBodyAccelerometerJerkSTD()-Z"             
-[21] "TimeBodyGyroscopeMean()-X"                     "TimeBodyGyroscopeMean()-Y"                    
-[23] "TimeBodyGyroscopeMean()-Z"                     "TimeBodyGyroscopeSTD()-X"                     
-[25] "TimeBodyGyroscopeSTD()-Y"                      "TimeBodyGyroscopeSTD()-Z"                     
-[27] "TimeBodyGyroscopeJerkMean()-X"                 "TimeBodyGyroscopeJerkMean()-Y"                
-[29] "TimeBodyGyroscopeJerkMean()-Z"                 "TimeBodyGyroscopeJerkSTD()-X"                 
-[31] "TimeBodyGyroscopeJerkSTD()-Y"                  "TimeBodyGyroscopeJerkSTD()-Z"                 
-[33] "TimeBodyAccelerometerMagnitudeMean()"          "TimeBodyAccelerometerMagnitudeSTD()"          
-[35] "TimeGravityAccelerometerMagnitudeMean()"       "TimeGravityAccelerometerMagnitudeSTD()"       
-[37] "TimeBodyAccelerometerJerkMagnitudeMean()"      "TimeBodyAccelerometerJerkMagnitudeSTD()"      
-[39] "TimeBodyGyroscopeMagnitudeMean()"              "TimeBodyGyroscopeMagnitudeSTD()"              
-[41] "TimeBodyGyroscopeJerkMagnitudeMean()"          "TimeBodyGyroscopeJerkMagnitudeSTD()"          
-[43] "FrequencyBodyAccelerometerMean()-X"            "FrequencyBodyAccelerometerMean()-Y"           
-[45] "FrequencyBodyAccelerometerMean()-Z"            "FrequencyBodyAccelerometerSTD()-X"            
-[47] "FrequencyBodyAccelerometerSTD()-Y"             "FrequencyBodyAccelerometerSTD()-Z"            
-[49] "FrequencyBodyAccelerometerJerkMean()-X"        "FrequencyBodyAccelerometerJerkMean()-Y"       
-[51] "FrequencyBodyAccelerometerJerkMean()-Z"        "FrequencyBodyAccelerometerJerkSTD()-X"        
-[53] "FrequencyBodyAccelerometerJerkSTD()-Y"         "FrequencyBodyAccelerometerJerkSTD()-Z"        
-[55] "FrequencyBodyGyroscopeMean()-X"                "FrequencyBodyGyroscopeMean()-Y"               
-[57] "FrequencyBodyGyroscopeMean()-Z"                "FrequencyBodyGyroscopeSTD()-X"                
-[59] "FrequencyBodyGyroscopeSTD()-Y"                 "FrequencyBodyGyroscopeSTD()-Z"                
-[61] "FrequencyBodyAccelerometerMagnitudeMean()"     "FrequencyBodyAccelerometerMagnitudeSTD()"     
-[63] "FrequencyBodyAccelerometerJerkMagnitudeMean()" "FrequencyBodyAccelerometerJerkMagnitudeSTD()" 
-[65] "FrequencyBodyGyroscopeMagnitudeMean()"         "FrequencyBodyGyroscopeMagnitudeSTD()"         
-[67] "FrequencyBodyGyroscopeJerkMagnitudeMean()"     "FrequencyBodyGyroscopeJerkMagnitudeSTD()" 
+Subject                                       
+ActivityLabel                                
+TimeBodyAccelerometerMean()-X                 
+TimeBodyAccelerometerMean()-Y                
+TimeBodyAccelerometerMean()-Z                 
+TimeBodyAccelerometerSTD()-X                 
+TimeBodyAccelerometerSTD()-Y                  
+TimeBodyAccelerometerSTD()-Z                 
+TimeGravityAccelerometerMean()-X              
+TimeGravityAccelerometerMean()-Y             
+TimeGravityAccelerometerMean()-Z              
+TimeGravityAccelerometerSTD()-X              
+TimeGravityAccelerometerSTD()-Y               
+TimeGravityAccelerometerSTD()-Z              
+TimeBodyAccelerometerJerkMean()-X             
+TimeBodyAccelerometerJerkMean()-Y            
+TimeBodyAccelerometerJerkMean()-Z             
+TimeBodyAccelerometerJerkSTD()-X             
+TimeBodyAccelerometerJerkSTD()-Y              
+TimeBodyAccelerometerJerkSTD()-Z             
+TimeBodyGyroscopeMean()-X                     
+TimeBodyGyroscopeMean()-Y                    
+TimeBodyGyroscopeMean()-Z                     
+TimeBodyGyroscopeSTD()-X                     
+TimeBodyGyroscopeSTD()-Y                      
+TimeBodyGyroscopeSTD()-Z                     
+TimeBodyGyroscopeJerkMean()-X                 
+TimeBodyGyroscopeJerkMean()-Y                
+TimeBodyGyroscopeJerkMean()-Z                 
+TimeBodyGyroscopeJerkSTD()-X                 
+TimeBodyGyroscopeJerkSTD()-Y                  
+TimeBodyGyroscopeJerkSTD()-Z                 
+TimeBodyAccelerometerMagnitudeMean()          
+TimeBodyAccelerometerMagnitudeSTD()          
+TimeGravityAccelerometerMagnitudeMean()       
+TimeGravityAccelerometerMagnitudeSTD()       
+TimeBodyAccelerometerJerkMagnitudeMean()      
+TimeBodyAccelerometerJerkMagnitudeSTD()      
+TimeBodyGyroscopeMagnitudeMean()              
+TimeBodyGyroscopeMagnitudeSTD()              
+TimeBodyGyroscopeJerkMagnitudeMean()          
+TimeBodyGyroscopeJerkMagnitudeSTD()          
+FrequencyBodyAccelerometerMean()-X            
+FrequencyBodyAccelerometerMean()-Y           
+FrequencyBodyAccelerometerMean()-Z            
+FrequencyBodyAccelerometerSTD()-X            
+FrequencyBodyAccelerometerSTD()-Y             
+FrequencyBodyAccelerometerSTD()-Z            
+FrequencyBodyAccelerometerJerkMean()-X        
+FrequencyBodyAccelerometerJerkMean()-Y       
+FrequencyBodyAccelerometerJerkMean()-Z        
+FrequencyBodyAccelerometerJerkSTD()-X        
+FrequencyBodyAccelerometerJerkSTD()-Y         
+FrequencyBodyAccelerometerJerkSTD()-Z        
+FrequencyBodyGyroscopeMean()-X                
+FrequencyBodyGyroscopeMean()-Y               
+FrequencyBodyGyroscopeMean()-Z                
+FrequencyBodyGyroscopeSTD()-X                
+FrequencyBodyGyroscopeSTD()-Y                 
+FrequencyBodyGyroscopeSTD()-Z                
+FrequencyBodyAccelerometerMagnitudeMean()     
+FrequencyBodyAccelerometerMagnitudeSTD()     
+FrequencyBodyAccelerometerJerkMagnitudeMean() 
+FrequencyBodyAccelerometerJerkMagnitudeSTD() 
+FrequencyBodyGyroscopeMagnitudeMean()         
+FrequencyBodyGyroscopeMagnitudeSTD()         
+FrequencyBodyGyroscopeJerkMagnitudeMean()     
+FrequencyBodyGyroscopeJerkMagnitudeSTD() 
