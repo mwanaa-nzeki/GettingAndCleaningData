@@ -14,7 +14,7 @@ One of the most exciting areas in all of data science right now is wearable comp
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones 
 
-<a name="getDataset">Here are the data used in this project:</a> 
+Here are the data used in this project:
 
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
 
@@ -29,7 +29,7 @@ The provided script called run_analysis.R does the following:
  
 ## Execution
 1. Clone the repository `git@github.com:mwanaa-nzeki/GettingAndCleaningData.git`
-2. Download the [dataset](#getDataset)
+2. Download the [dataset](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip)
 3. Unzip the dataset and place the directory "UCI HAR Dataset" at the root of the cloned repository
 4. Set the working directory to the cloned repository root directory
 5. Source and run the script run_analysis.R 
