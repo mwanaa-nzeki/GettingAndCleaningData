@@ -52,4 +52,6 @@ The following transformations are applied to the dataset:
 ## Execution
 1. Clone the repository git@github.com:mwanaa-nzeki/GettingAndCleaningData.git
 2. Download the [dataset](#getDataset)
-3. 
+3. Unzip the dataset and place the directory "UCI HAR Dataset" at the root of the cloned repository
+4. Set the working directory to the cloned repository root directory
+5. Source and run the script run_analysis.R 
